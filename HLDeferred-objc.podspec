@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios  
   s.source_files = 'HLDeferred/Classes/HL*.{h,m}'
   s.dependency 'JSONKit', '~> 1.4'
+  s.requires_arc = false
 end
