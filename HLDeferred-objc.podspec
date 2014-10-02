@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HLDeferred-objc"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Deferred for iOS, based on Twisted."
   s.homepage     = "https://github.com/mgamer/HLDeferred-objc"
   s.license      = 'MIT'
