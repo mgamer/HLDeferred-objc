@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		381BBA5313186C330098D5B6 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 381BBA5113186C330098D5B6 /* JSONKit.h */; };
 		386E781413D6201100F32E7A /* HLDeferredDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 386E781213D6201100F32E7A /* HLDeferredDataSourceManager.h */; };
 		386E781513D6201100F32E7A /* HLDeferredDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E781313D6201100F32E7A /* HLDeferredDataSourceManager.m */; };
 		388531B51300795D00A256DB /* HLDownloadDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 388531B41300795D00A256DB /* HLDownloadDataSourceTest.m */; };
-		388531E013007DAD00A256DB /* HLJSONDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 388531DF13007DAD00A256DB /* HLJSONDataSourceTest.m */; };
 		3885A63412FBC56900BA5864 /* HLDeferredDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885A63312FBC56900BA5864 /* HLDeferredDataSourceTest.m */; };
 		3885A67912FC783000BA5864 /* HLDeferredConcurrentDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885A67812FC783000BA5864 /* HLDeferredConcurrentDataSourceTest.m */; };
 		3891B76B13D65ED100E5F1C0 /* HLDeferredDataSourceManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3891B76A13D65ED100E5F1C0 /* HLDeferredDataSourceManagerTest.m */; };
@@ -26,7 +24,6 @@
 		A72B197212F77215007685CF /* HLDeferredConcurrentDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B196612F77215007685CF /* HLDeferredConcurrentDataSource.m */; };
 		A72B197312F77215007685CF /* HLDownloadDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B196712F77215007685CF /* HLDownloadDataSource.h */; };
 		A72B197412F77215007685CF /* HLDownloadDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B196812F77215007685CF /* HLDownloadDataSource.m */; };
-		A72B197512F77215007685CF /* HLJSONDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B196912F77215007685CF /* HLJSONDataSource.h */; };
 		A72B197712F77215007685CF /* HLDeferredDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B196B12F77215007685CF /* HLDeferredDataSource.h */; };
 		A72B197812F77215007685CF /* HLDeferredDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B196C12F77215007685CF /* HLDeferredDataSource.m */; };
 		A72B197912F77215007685CF /* HLURLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B196D12F77215007685CF /* HLURLDataSource.h */; };
@@ -39,7 +36,6 @@
 		A764F5C812F8C1560002D17E /* libHLDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libHLDeferred.a */; };
 		A76B841712F8BD2200ACDD85 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B841612F8BD2200ACDD85 /* GHUnitIOSTestMain.m */; };
 		A76B842C12F8BE8000ACDD85 /* HLDeferredTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B842B12F8BE8000ACDD85 /* HLDeferredTest.m */; };
-		A79B87DD12F9DC410048464F /* HLJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B196A12F77215007685CF /* HLJSONDataSource.m */; };
 		AA747D9F0F9514B9006C5449 /* HLDeferred_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* HLDeferred_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -55,11 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		381BBA5113186C330098D5B6 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Classes/JSONKit.h; sourceTree = "<group>"; };
 		386E781213D6201100F32E7A /* HLDeferredDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLDeferredDataSourceManager.h; path = Classes/HLDeferredDataSourceManager.h; sourceTree = "<group>"; };
 		386E781313D6201100F32E7A /* HLDeferredDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeferredDataSourceManager.m; sourceTree = "<group>"; };
 		388531B41300795D00A256DB /* HLDownloadDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLDownloadDataSourceTest.m; path = Tests/HLDownloadDataSourceTest.m; sourceTree = "<group>"; };
-		388531DF13007DAD00A256DB /* HLJSONDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLJSONDataSourceTest.m; path = Tests/HLJSONDataSourceTest.m; sourceTree = "<group>"; };
 		3885A63312FBC56900BA5864 /* HLDeferredDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLDeferredDataSourceTest.m; path = Tests/HLDeferredDataSourceTest.m; sourceTree = "<group>"; };
 		3885A67812FC783000BA5864 /* HLDeferredConcurrentDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLDeferredConcurrentDataSourceTest.m; path = Tests/HLDeferredConcurrentDataSourceTest.m; sourceTree = "<group>"; };
 		3891B76A13D65ED100E5F1C0 /* HLDeferredDataSourceManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeferredDataSourceManagerTest.m; sourceTree = "<group>"; };
@@ -75,8 +69,6 @@
 		A72B196612F77215007685CF /* HLDeferredConcurrentDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeferredConcurrentDataSource.m; sourceTree = "<group>"; };
 		A72B196712F77215007685CF /* HLDownloadDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLDownloadDataSource.h; path = Classes/HLDownloadDataSource.h; sourceTree = "<group>"; };
 		A72B196812F77215007685CF /* HLDownloadDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDownloadDataSource.m; sourceTree = "<group>"; };
-		A72B196912F77215007685CF /* HLJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLJSONDataSource.h; path = Classes/HLJSONDataSource.h; sourceTree = "<group>"; };
-		A72B196A12F77215007685CF /* HLJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJSONDataSource.m; sourceTree = "<group>"; };
 		A72B196B12F77215007685CF /* HLDeferredDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLDeferredDataSource.h; path = Classes/HLDeferredDataSource.h; sourceTree = "<group>"; };
 		A72B196C12F77215007685CF /* HLDeferredDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeferredDataSource.m; sourceTree = "<group>"; };
 		A72B196D12F77215007685CF /* HLURLDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLURLDataSource.h; path = Classes/HLURLDataSource.h; sourceTree = "<group>"; };
@@ -186,7 +178,6 @@
 				3885A67812FC783000BA5864 /* HLDeferredConcurrentDataSourceTest.m */,
 				38CB29B212FDF0BD00739549 /* HLURLDataSourceTest.m */,
 				388531B41300795D00A256DB /* HLDownloadDataSourceTest.m */,
-				388531DF13007DAD00A256DB /* HLJSONDataSourceTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -195,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				A72B196812F77215007685CF /* HLDownloadDataSource.m */,
-				A72B196A12F77215007685CF /* HLJSONDataSource.m */,
 				A72B196E12F77215007685CF /* HLURLDataSource.m */,
 			);
 			name = "Data Sources";
@@ -205,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				A72B196712F77215007685CF /* HLDownloadDataSource.h */,
-				A72B196912F77215007685CF /* HLJSONDataSource.h */,
 				A72B196D12F77215007685CF /* HLURLDataSource.h */,
 				A72B196312F77215007685CF /* HLDeferred.h */,
 				A757910512FB7C5A00D52C21 /* HLDeferredList.h */,
@@ -213,7 +202,6 @@
 				A72B196B12F77215007685CF /* HLDeferredDataSource.h */,
 				A72B196512F77215007685CF /* HLDeferredConcurrentDataSource.h */,
 				A7578F0312FB2E4300D52C21 /* HLFailure.h */,
-				381BBA5113186C330098D5B6 /* JSONKit.h */,
 			);
 			name = "HLDeferred Headers";
 			sourceTree = "<group>";
@@ -229,12 +217,10 @@
 				A72B196F12F77215007685CF /* HLDeferred.h in Headers */,
 				A72B197112F77215007685CF /* HLDeferredConcurrentDataSource.h in Headers */,
 				A72B197312F77215007685CF /* HLDownloadDataSource.h in Headers */,
-				A72B197512F77215007685CF /* HLJSONDataSource.h in Headers */,
 				A72B197712F77215007685CF /* HLDeferredDataSource.h in Headers */,
 				A72B197912F77215007685CF /* HLURLDataSource.h in Headers */,
 				A7578F0512FB2E4300D52C21 /* HLFailure.h in Headers */,
 				A757910612FB7C7400D52C21 /* HLDeferredList.h in Headers */,
-				381BBA5313186C330098D5B6 /* JSONKit.h in Headers */,
 				386E781413D6201100F32E7A /* HLDeferredDataSourceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +314,6 @@
 				3885A67912FC783000BA5864 /* HLDeferredConcurrentDataSourceTest.m in Sources */,
 				38CB29B312FDF0BD00739549 /* HLURLDataSourceTest.m in Sources */,
 				388531B51300795D00A256DB /* HLDownloadDataSourceTest.m in Sources */,
-				388531E013007DAD00A256DB /* HLJSONDataSourceTest.m in Sources */,
 				3891B76B13D65ED100E5F1C0 /* HLDeferredDataSourceManagerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +328,6 @@
 				A72B197412F77215007685CF /* HLDownloadDataSource.m in Sources */,
 				A72B197812F77215007685CF /* HLDeferredDataSource.m in Sources */,
 				A72B197A12F77215007685CF /* HLURLDataSource.m in Sources */,
-				A79B87DD12F9DC410048464F /* HLJSONDataSource.m in Sources */,
 				A7578F0612FB2E4300D52C21 /* HLFailure.m in Sources */,
 				386E781513D6201100F32E7A /* HLDeferredDataSourceManager.m in Sources */,
 			);
